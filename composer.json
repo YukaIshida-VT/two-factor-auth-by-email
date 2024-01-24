@@ -1,0 +1,22 @@
+{
+    "name": "ishidayuka/two-factor-auth-by-email",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TwoFactorAuthByEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yuka Ishida",
+            "email": "ishida.yuka@valuence.inc"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^10.42"
+    }
+}
